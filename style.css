@@ -1,0 +1,23 @@
+input {
+    margin: 5px;
+}
+
+.task-list {
+    display: flex;
+    flex-direction: column; 
+}
+
+.taskItem {
+    display: flex;
+    align-items: center; 
+    margin: 5px;
+}
+
+#delete {
+    margin-left: 5px; 
+}
+
+.green {
+    color: green;
+    text-decoration: line-through;
+}
